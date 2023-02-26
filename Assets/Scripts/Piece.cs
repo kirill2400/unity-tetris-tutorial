@@ -102,7 +102,7 @@ public class Piece : MonoBehaviour
         }
     }
 
-    private void HardDrop()
+    public void HardDrop()
     {
         while (Move(Vector2Int.down)) {
             continue;
